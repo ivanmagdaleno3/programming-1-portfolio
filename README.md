@@ -9,3 +9,6 @@ game we build which involves a space ship and you have to avoid Meteorites you h
 ##caculator
 is a caculator that functions has division , mulitplication,and additon 
 ![images](https://user-images.githubusercontent.com/101122303/169841420-641eae09-2c0b-4b84-8ed3-75b48dd64afe.jpg)
+
+## grade
+shows the the grade you would have and the percentage it would be
