@@ -12,4 +12,4 @@ is a caculator that functions has division , mulitplication,and additon
 
 ## grade
 shows the the grade you would have and the percentage it would be
-![0](https://user-images.githubusercontent.com/101122303/169844703-6b3459a8-5a19-430b-a358-802dfd37511b.jpg)
+![0](https://user-images.githubusercontent.com/101122303/169844703-6b3459a8-5a19-430b-a358-802dfd37511b.png)
