@@ -1,0 +1,50 @@
+void setup() {
+    	size(900,400);
+}
+
+void draw() {
+    	background(127);
+    	timeLine();   
+    	histEventTop(120,137,"German Enigma-machine","made by engineer Arthur Scherbius made in 1918, device used by the German military command to encode \n strategic messages before and during World War II");
+    	histEventTop(320,137,"zuse","Zuse computer, any of a series of computers designed and built in \n Germany during the 1930s and '40s by the German engineer Konrad Zuse");
+    	histEventBottom(520,220,"computer","and was created by German engineer Konrad Zuse in 1940. It was an improvement on his earlier \n Z1; although it used the same mechanical memory, it replaced the arithmetic and control logic \n with electrical relay circuits.");
+    	histEventBottom(700,220,"Model K","he Model K was an early relay binary adder built in 1937 by George Robert Stibitz, a \n scientist at Bell Laboratories.");
+}
+
+void timeLine() {
+    	// render title
+    	textAlign(CENTER);
+    	textSize(35);
+    	fill(255,255,0);
+    	text("Historic Computer systems",width/2,70);
+    	text("by ivan magdaleno",width/2, 100);
+    	// render timeline    
+    	strokeWeight(4);
+    	line(100,180,800,180);
+}
+
+void histEventTop(int x, int y, String title, String detail) {
+     	textAlign(LEFT);
+    	textSize(12);
+    	fill(255);
+    	text(title,x,y); 
+    	// render line
+    	line(x,y+5,x+15,y+40);  
+    	if(mouseX > x && mouseX < x+100 && mouseY > y-20 && mouseY < y+20) {
+         	text(detail,200,330);
+            
+    	} 
+       
+}
+
+void histEventBottom(int x, int y, String title,String detail) {
+    	textAlign(LEFT);
+    	textSize(15);
+    	fill(255);
+    	text(title,x,y);
+    	line(x,y+13,x+15,y-40);
+    	if(mouseX > x && mouseX < x+100 && mouseY > y-20 && mouseY < y+20) {
+         	text(detail,200,330);
+            
+    	} 
+}
